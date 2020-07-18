@@ -2,10 +2,16 @@
   <div class="footer-section" id="footer">
     <div class="form-record-conteiner">
       <h2>Онлайн-запись</h2>
-      <form action="">
+      <form action="#">
         <div class="input-box">
-          <input type="text" class="input-name" placeholder="Имя*" />
-          <input type="tel" class="input-tel" placeholder="Телефон*" />
+          <input type="text" class="input-name" placeholder="Имя*" required />
+          <input
+            type="tel"
+            class="input-tel"
+            placeholder="Телефон*"
+            pattern="^+380\d{3}\d{2}\d{2}\d{2}$"
+            required
+          />
         </div>
         <textarea
           name=""

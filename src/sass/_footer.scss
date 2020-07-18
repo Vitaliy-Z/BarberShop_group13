@@ -156,6 +156,14 @@ footer a {
     border-color: #ffffff;
   }
 }
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
 // .form-record-conteiner button {
 //   margin-left: auto;
 //   margin-right: auto;
