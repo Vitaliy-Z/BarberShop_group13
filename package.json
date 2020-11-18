@@ -3,27 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://RomanPalna.github.io/BarberShop_group13",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url='/BarberShop_group13/'",
+    "predeploy": "npm run build -- --public-url /BarberShop_group13/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Vitaliy-Z/BarberShop_group13.git"
   },
   "keywords": [],
   "author": "Palna Roman <roma.palna@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Vitaliy-Z/BarberShop_group13/issues"
   },
+    "homepage": "https://vitaliy-z.github.io/BarberShop_group13",
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.4",
     "posthtml-include": "^1.4.3",
-    "sass": "^1.26.9"
+    "sass": "^1.29.0"
   }
 }
